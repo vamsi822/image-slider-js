@@ -1,51 +1,41 @@
 body{
     margin: 0;
-    box-sizing: border-box;
 }
-
 .slide-container{
     position: relative;
     width: 100%;
 }
-
 .slide img{
-    height: 50%;
     width: 100%;
-    
 }
-
 .arrow{
-    cursor:pointer;
+    cursor: pointer;
     position: absolute;
     top: 45%;
     color: black;
-    background-color: white;
-    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 18px;
     border-radius: 50%;
     font-size: 25px;
     font-weight: bold;
-
 }
-
 .next{
-    right: 10px;
+    right: 0px;
 }
-
 .prev{
     left: 10px;
 }
-
 .caption{
-    color: blue;
+    color: white;
     font-size: 30px;
     font-weight: bold;
     position: absolute;
     bottom: 0px;
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.684);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0px;
 }
-
 .slide{
-    display: none;
+    display: none;
 }
